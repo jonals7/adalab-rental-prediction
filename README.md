@@ -31,12 +31,12 @@ Desarrollado como prueba técnica para el Laboratorio de Ciencia de Datos ADA �
 ##  URL Pública de la API
 
 ```
-https://ecuador-rental-api.onrender.com
+https://adalab-rental-prediction.onrender.com
 ```
 
 ### Health check
 ```bash
-curl https://ecuador-rental-api.onrender.com/
+curl https://adalab-rental-prediction.onrender.com/
 ```
 
 ---
@@ -52,7 +52,7 @@ Predice el precio mensual de alquiler (USD) de un inmueble.
 #### Request
 
 ```bash
-curl -X POST "https://ecuador-rental-api.onrender.com/predict" \
+curl -X POST "https://adalab-rental-prediction.onrender.com" \
      -H "Content-Type: application/json" \
      -d '{
        "provincia": "Pichincha",
@@ -101,7 +101,7 @@ curl -X POST "https://ecuador-rental-api.onrender.com/predict" \
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/TU_USUARIO/adalab-rental-prediction.git
+git clone https://github.com/jonals7/adalab-rental-prediction.git
 cd adalab-rental-prediction
 
 # 2. Instalar dependencias
@@ -183,7 +183,7 @@ Se compararon cuatro algoritmos de regresión:
 ##  Ejemplo con curl
 
 ```bash
-curl -X POST "https://ecuador-rental-api.onrender.com/predict" \
+curl -X POST "https://adalab-rental-prediction.onrender.com/predict" \
   -H "Content-Type: application/json" \
   -d '{"provincia":"Guayas","lugar":"Guayaquil","num_dormitorios":2,"num_banos":1,"area":75,"num_garages":0}'
 ```
