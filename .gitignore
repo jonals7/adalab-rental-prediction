@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+.DS_Store
+notebooks/eda_script.py
+notebooks/ml_script.py

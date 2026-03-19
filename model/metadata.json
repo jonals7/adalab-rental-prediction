@@ -1,0 +1,23 @@
+{
+  "lugares": [
+    "Babahoyo",
+    "Guayaquil",
+    "Otro",
+    "Ponceano",
+    "Puerto Cayo",
+    "Quito",
+    "Sangolquí"
+  ],
+  "provincias": [
+    "Cotopaxi",
+    "El Oro",
+    "Esmeraldas",
+    "Guayas",
+    "Imbabura",
+    "Los Rios",
+    "Manabí",
+    "Orellana",
+    "Pichincha",
+    "Santa Elena"
+  ]
+}
