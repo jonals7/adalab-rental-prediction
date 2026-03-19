@@ -1,11 +1,11 @@
-# 🏠 Predicción de Precios de Alquiler en Ecuador
+#  Predicción de Precios de Alquiler en Ecuador
 
 API REST y notebooks de ciencia de datos para predecir precios de alquiler de inmuebles en Ecuador.  
 Desarrollado como prueba técnica para el Laboratorio de Ciencia de Datos ADA – EPN.
 
 ---
 
-## 📁 Estructura del Repositorio
+##  Estructura del Repositorio
 
 ```
 .
@@ -28,7 +28,7 @@ Desarrollado como prueba técnica para el Laboratorio de Ciencia de Datos ADA �
 
 ---
 
-## 🚀 URL Pública de la API
+##  URL Pública de la API
 
 ```
 https://ecuador-rental-api.onrender.com
@@ -41,7 +41,7 @@ curl https://ecuador-rental-api.onrender.com/
 
 ---
 
-## 📡 Uso de la API
+##  Uso de la API
 
 ### Endpoint principal
 
@@ -95,7 +95,7 @@ curl -X POST "https://ecuador-rental-api.onrender.com/predict" \
 
 ---
 
-## 🛠️ Ejecución Local
+##  Ejecución Local
 
 ### Con Python
 
@@ -132,7 +132,7 @@ Ejecutar en orden: `01_EDA.ipynb` → `02_ML.ipynb`
 
 ---
 
-## 🧠 Descripción de la Solución
+##  Descripción de la Solución
 
 ### 1. Procesamiento de Datos (`01_EDA.ipynb`)
 
@@ -171,7 +171,7 @@ Se compararon cuatro algoritmos de regresión:
 
 ---
 
-## 📊 Análisis Destacados
+##  Análisis Destacados
 
 - **75% de las propiedades** se encuentran en Pichincha (principalmente Quito).
 - La **mediana global** de precio es $500 USD; el promedio es $776 (sesgado por propiedades de lujo).
@@ -180,7 +180,7 @@ Se compararon cuatro algoritmos de regresión:
 
 ---
 
-## 🧪 Ejemplo con curl
+##  Ejemplo con curl
 
 ```bash
 curl -X POST "https://ecuador-rental-api.onrender.com/predict" \
@@ -190,11 +190,11 @@ curl -X POST "https://ecuador-rental-api.onrender.com/predict" \
 
 ---
 
-## 📦 Dependencias principales
+##  Dependencias principales
 
-- Python 3.11
-- FastAPI 0.111
-- scikit-learn 1.4
-- XGBoost 2.0
-- pandas 2.2
-- joblib 1.4
+- Python 3.14
+- FastAPI 
+- scikit-learn 
+- XGBoost
+- pandas 
+- joblib 
