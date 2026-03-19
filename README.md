@@ -52,7 +52,7 @@ Predice el precio mensual de alquiler (USD) de un inmueble.
 #### Request
 
 ```bash
-curl -X POST "https://adalab-rental-prediction.onrender.com" \
+curl -X POST "https://adalab-rental-prediction.onrender.com/predict" \
      -H "Content-Type: application/json" \
      -d '{
        "provincia": "Pichincha",
@@ -64,6 +64,7 @@ curl -X POST "https://adalab-rental-prediction.onrender.com" \
      }'
 ```
 
+> **Nota:** Se puede probar tambien en POSTMAN
 #### Response
 
 ```json
